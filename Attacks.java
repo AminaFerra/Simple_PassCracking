@@ -13,7 +13,7 @@ import java.io.*;
 public class Attacks {
     private static final String hPass = "aallo";
     private static final String name = "Amina";
-    private static final String dFile = "C:\\Users\\Amina Ferra\\Downloads\\default-routers.txt"; //add your path here 
+    private static final String dFile = "default-routers.txt"; //add your path here 
 
     public static boolean validateUser(String u, String p) {
         return u.equals(name) && p.equals(hPass);
